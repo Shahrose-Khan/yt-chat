@@ -1,0 +1,44 @@
+/* Activity.css */
+
+/* Custom style for the heatmap */
+.react-calendar-heatmap {
+  width: 38vw;
+  overflow: visible;
+}
+
+.react-calendar-heatmap text {
+  font-size: 10px;
+  fill: #888;
+  
+}
+/* Reddish color scale */
+.color-empty {
+  fill: #f2f2f2; /* Light gray for empty days */
+}
+
+/* Customize the color scale for data */
+.color-scale-0 {
+  fill: #ffebee; /* Lightest shade of red */
+}
+
+.color-scale-1 {
+  fill: #ffcdd2;
+}
+
+.color-scale-2 {
+  fill: #ef9a9a;
+}
+
+.color-scale-3 {
+  fill: #e57373;
+}
+
+.color-scale-4 {
+  fill: #ef5350; /* Darkest shade of red */
+}
+
+.custom-tooltip{
+  font-size: 10px !important;
+  width: 5% !important;
+  padding: 5px !important;
+}

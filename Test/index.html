@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Page Chat Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="branding">
+          <p>YT Chat</p>
+        </div>
+        <div class="options">
+          <button class="add-video-btn">
+            <i class="fa fa-plus"></i> Add New Video
+          </button>
+          <div class="history">
+            <p class="section"><i class="fa fa-calendar"></i> History</p>
+            <div class="sub-section">
+              <p>Today</p>
+              <ul class="history-list">
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 1 - Generative AI in Finance - Transforming
+                    Investment Strategies and Risk Assessment 1</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 2 - Revolutionizing Roller Coaster Safety -
+                    Integrating Computer Vision, IoT, & LLMs
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 3 - Using deep learning for decoding of CAN bus data
+                    in vehicle analysis
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sub-section">
+              <p>Yesterday</p>
+              <ul class="history-list">
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 4 - LangChain - Harnessing the Potential of
+                    Generative AI for Industry
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 5 - From Machine Logs to Actionable Insights -
+                    Leveraging Language Models for Failure Analysis
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sub-section">
+              <p>Last Week</p>
+              <ul class="history-list">
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 6 - Efficient Tuning of Large Language Models LLMs
+                    with Novel Ensemble Knowledge...
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 7 - Large language model for multi-modal cheques
+                    extraction
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 8 - Unleashing the Potential of YouTube Advertising
+                    with AI-Powered Channel Recommendations...
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 9 - Comparative Analysis for Predicting Shelf Life of
+                    Fruits Using Advanced Deep Learning...
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 10 - MultiModal Vibration Analysis - Industrial
+                    Motors Using Cross Attention Based-Transformer
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="menu-item"
+                    >Video 11 - Generative AI Powered Automated Data Analytics
+                    and Reporting Platform for Enterprises
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="settings">
+            <p class="section"><i class="fa fa-cog"></i> Settings</p>
+            <p class="section"><i class="fa fa-info-circle"></i> About</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-area">
+        <div class="chat-history">
+          <!-- Demo messages with avatars -->
+          <div class="message theirs">
+            <img src="avt1.png" alt="Avatar 1" />
+            <span>Hello!</span>
+          </div>
+          <div class="message mine">
+            <img src="avt2.png" alt="Avatar 2" />
+            <span>Hi there!</span>
+          </div>
+          <div class="message theirs">
+            <img src="avt1.png" alt="Avatar 1" />
+            <span>How are you?</span>
+          </div>
+          <!-- End of demo messages -->
+        </div>
+        <div class="message-box">
+          <input
+            type="text"
+            class="text-input"
+            placeholder="Type a message..."
+          />
+          <button class="send-btn"><i class="fa fa-send-o"></i></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
