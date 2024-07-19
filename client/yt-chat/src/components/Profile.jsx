@@ -18,7 +18,7 @@ function Profile() {
                   <span className="tooltip-text tooltip-top">Goto Home</span>
                 </div>
               </div>
-              <h1>Profile</h1>
+              <h1>My Profile</h1>
             </div>
             <nav>
               <ul className="nav-list">
