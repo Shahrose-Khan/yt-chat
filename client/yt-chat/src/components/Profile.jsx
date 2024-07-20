@@ -46,7 +46,7 @@ function Profile() {
                     className="nav-link"
                     activeClassName="active"
                   >
-                    <span>Keys</span>
+                    <span>API Keys</span>
                   </NavLink>
                 </li>
               </ul>
