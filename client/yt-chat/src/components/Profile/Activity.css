@@ -9,7 +9,6 @@
 .react-calendar-heatmap text {
   font-size: 10px;
   fill: #888;
-  
 }
 /* Reddish color scale */
 .color-empty {
@@ -37,8 +36,9 @@
   fill: #ef5350; /* Darkest shade of red */
 }
 
-.custom-tooltip{
+.custom-tooltip {
   font-size: 10px !important;
   width: 5% !important;
   padding: 5px !important;
+  z-index: 999;
 }
