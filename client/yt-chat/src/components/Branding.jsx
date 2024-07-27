@@ -8,7 +8,7 @@ function Branding() {
         <p>YT Chat</p>
       </div>
       <button className="add-video-btn">
-        <i className="fa fa-plus"></i> New Video
+        <i className="fa fa-plus"></i> New Link
       </button>
     </>
   );
