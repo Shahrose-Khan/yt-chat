@@ -52,7 +52,7 @@ function History() {
   return (
     <>
       <p className="section">
-        <i className="fa fa-calendar"></i> History
+        <i className="fa fa-calendar"></i> My Chats
       </p>
       <div className="history">
         {Object.entries(groupedHistory).map(([date, items]) => (
